@@ -19,7 +19,7 @@ Shizuku 的诞生主要有两大目的：
 
 1. 执行 `su`
 2. 执行 `pm disable`
-3. (pre-Pie) 使用 app_process 启动 Java 进程（[参见此处](https://android.googlesource.com/platform/frameworks/base/+/oreo-release/cmds/pm/pm)）
+3. (pre-Pie) 使用 app_process 启动 Java 进程（[参见此处](https://android.googlesource.com/platform/frameworks/base/+/oreo-release/cmds/pm/pm)）3.（Pie 之前）使用 app_process 启动 Java 进程（[参见此处](https://android.googlesource.com/platform/frameworks/base/+/oreo-release/cmds/pm/pm)）
 4. (Pie+) 执行原生程序 `cmd`（[参见此处](https://android.googlesource.com/platform/frameworks/native/+/pie-release/cmds/cmd/)）
 5. 处理参数，通过 binder 与 system server 交互，处理结果输出文字结果
 
